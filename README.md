@@ -4,10 +4,10 @@ This is the server/api side of Jared's power calendar app. Its based on NodeJS u
 
 ## Basic models (JSON data in a NoSQL database):
 Event: {
-    eventID: String?,
+    eventID: String,
     title: String,
-    startDateTime: datetime?,
-    endDateTime: datetime?
+    startDateTime: DateString,
+    endDateTime: DateString
 }
 
 ## API functions (on an Express + GraphQL NodeJS server):
